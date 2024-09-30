@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="gradient">
+    <h1>Background Generator</h1>
+
+    <label for="colorCount">Choose Number of Colors:</label>
+    <select id="colorCount">
+        <option value="2">2 Colors</option>
+        <option value="3">3 Colors</option>
+        <option value="4">4 Colors</option>
+        <option value="5">5 Colors</option>
+        <option value="6">6 Colors</option>
+    </select>
+
+    <div id="colorInputs"></div>
+
+    <label for="gradientType">Background Type:</label>
+    <select id="gradientType">
+        <option value="linear">Linear</option>
+        <option value="radial">Radial</option>
+        <option value="wave">Wave</option>
+    </select>
+
+    <button id="randomColorButton">Generate Random Colors</button>
+
+    <h2>Current CSS Background</h2>
+    <h3></h3>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
